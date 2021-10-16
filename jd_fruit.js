@@ -29,20 +29,6 @@ let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, n
 //此此内容是IOS用户下载脚本到本地使用，填写互助码的地方，同一京东账号的好友互助码请使用@符号隔开。
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // 这个列表填入你要助力的好友的shareCode
-  //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
-  //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
-  //账号三的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
-  //账号四的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
-  //账号五的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
-  //账号六的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
-  //账号七的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '70942a810ec64786aa4389be9ec4cefb@4ab0296f21b7410e85a6a6f202a33168@fb8d50c5a07c48b1a326538aa40b0798@16163093ef8f490a80c6bf4b2ce19354@39c2a6d3831b4345aadd2c3859da7f95@414969a2958b4c8e8dcee96c54c3673b',
 ]
 let message = '', subTitle = '', option = {}, isFruitFinished = false;
 const retainWater = 100;//保留水滴大于多少g,默认100g;
